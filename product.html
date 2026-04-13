@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Details | Ashirwad Orna</title>
+    <meta name="description" content="View detailed specifications, variants, and request bulk quotes for our premium Indian B2B jewelry components.">
+    <meta name="keywords" content="jewelry findings, B2B jewelry, karigars, wholesale jewelry parts, precision screws, support posts, Ashirwad Orna">
+    <link rel="canonical" href="https://ashirwadorna.com/product.html">
+    
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ashirwadorna.com/product.html">
+    <meta property="og:title" content="Component Details | Ashirwad Orna">
+    <meta property="og:description" content="View detailed specifications, variants, and request bulk quotes for our premium Indian B2B jewelry components.">
+    <meta property="og:image" content="https://ashirwadorna.com/images/logo.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ashirwadorna.com/product.html">
+    <meta property="twitter:title" content="Component Details | Ashirwad Orna">
+    <meta property="twitter:description" content="View detailed specifications, variants, and request bulk quotes for our premium Indian B2B jewelry components.">
+    <meta property="twitter:image" content="https://ashirwadorna.com/images/logo.png">
+
+    <!-- Preload / Web Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0A0A0A',
+                            darker: '#000000',
+                            accent: '#D4AF37',
+                            accentLight: '#E5D3B3',
+                            light: '#FAFAFA'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body class="bg-brand-light text-slate-800 flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav border-b border-slate-200">
+        <div class="relative z-50 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-2">
+                    <img loading="eager" fetchpriority="high" decoding="async" src="./images/logo.png" alt="Ashirwad Orna Logo" class="h-8 md:h-10 w-auto"
+                        onerror="this.outerHTML='<span class=\'font-bold text-xl md:text-2xl tracking-wider text-brand-dark uppercase\'>Ashirwad<span class=\'text-brand-accent\'>Orna</span></span>'">
+                </a>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html"
+                        class="nav-link text-sm font-medium text-slate-600 hover:text-brand-accent transition-smooth">Home</a>
+                    <a href="about.html"
+                        class="nav-link text-sm font-medium text-slate-600 hover:text-brand-accent transition-smooth">About</a>
+                    <a href="products.html"
+                        class="nav-link text-sm font-medium text-brand-accent hover:text-brand-accent transition-smooth">Products</a>
+                    <a href="contact.html"
+                        class="bg-brand-dark text-white px-6 py-2.5 rounded text-sm font-medium hover:bg-brand-accent transition-smooth shadow-sm">Partner
+                        With Us</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-btn" class="text-slate-600 hover:text-brand-accent focus:outline-none">
+                        <i class="ph ph-list text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="hidden md:hidden fixed inset-0 z-40 bg-brand-light flex-col justify-center items-center w-full h-[100dvh]">
+            <div class="w-full flex flex-col items-center space-y-8 px-6 pb-20">
+                <a href="index.html"
+                    class="nav-link text-4xl font-serif font-medium text-slate-600 hover:text-brand-accent transition-smooth">Home</a>
+                <a href="about.html"
+                    class="nav-link text-4xl font-serif font-medium text-slate-600 hover:text-brand-accent transition-smooth">About</a>
+                <a href="products.html"
+                    class="nav-link text-4xl font-serif font-medium text-slate-600 hover:text-brand-accent transition-smooth">Products</a>
+                <a href="contact.html"
+                    class="mt-8 px-8 py-4 bg-brand-dark text-white rounded-sm text-lg font-medium hover:bg-brand-accent transition-smooth uppercase tracking-wide shadow-sm">Partner
+                    With Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-28 pb-20">
+        <div id="error-container" class="hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-24">
+            <i class="ph ph-warning-circle text-6xl text-slate-300 mb-6"></i>
+            <h1 class="text-3xl font-light text-brand-dark mb-4">Component Not Found</h1>
+            <p class="text-slate-500 mb-8">The requested item could not be found or may have been discontinued.</p>
+            <a href="products.html"
+                class="bg-brand-dark text-white px-8 py-3 rounded font-medium hover:bg-brand-accent transition-smooth inline-flex items-center gap-2 shadow-sm">
+                <i class="ph ph-arrow-left"></i> Back to Collection
+            </a>
+        </div>
+
+        <div id="product-container" class="hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Breadcrumbs -->
+            <nav class="flex text-sm text-slate-500 mb-8 font-light" aria-label="Breadcrumb">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="inline-flex items-center">
+                        <a href="products.html" class="hover:text-brand-accent transition-smooth">Findings
+                            Collection</a>
+                    </li>
+                    <li>
+                        <div class="flex items-center">
+                            <i class="ph ph-caret-right text-xs mx-2"></i>
+                            <span id="breadcrumb-brand" class="text-brand-dark">Loading...</span>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+                <!-- Gallery Section -->
+                <div>
+                    <div id="main-image-container"
+                        class="bg-white rounded aspect-square flex items-center justify-center mb-4 border border-slate-200 shadow-sm relative group overflow-hidden">
+                        <i id="product-icon"
+                            class="ph ph-nut text-9xl text-slate-300 transition-smooth duration-700 group-hover:scale-110 group-hover:text-brand-accent/40"></i>
+                        <div class="absolute inset-0 bg-brand-dark/0 group-hover:bg-brand-dark/5 transition-smooth">
+                        </div>
+                    </div>
+                    <!-- Thumbnails -->
+                    <div id="thumbnails-container" class="grid grid-cols-4 gap-4">
+                        <div
+                            class="bg-white rounded aspect-square border-2 border-brand-accent flex items-center justify-center cursor-pointer shadow-sm">
+                            <i id="thumb-1" class="ph ph-nut text-3xl text-slate-400"></i>
+                        </div>
+                        <div
+                            class="bg-white rounded aspect-square border border-slate-200 hover:border-slate-300 flex items-center justify-center cursor-pointer transition-smooth shadow-sm">
+                            <i class="ph ph-magnifying-glass-plus text-3xl text-slate-400"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="flex flex-col">
+                    <span id="product-type"
+                        class="text-brand-accent font-medium tracking-widest text-sm uppercase mb-3 tracking-[0.2em] block">Category</span>
+                    <h1 id="product-name"
+                        class="text-3xl md:text-5xl font-serif font-medium tracking-tight text-brand-dark mb-6">
+                        Finding Name</h1>
+
+                    <p id="product-desc" class="text-slate-600 font-light leading-relaxed mb-8">
+                        Description goes here.
+                    </p>
+
+                    <!-- Features -->
+                    <div class="mb-10">
+                        <h4
+                            class="text-sm font-medium text-brand-dark uppercase tracking-wider mb-4 border-b border-slate-200 pb-2">
+                            Key Specifications</h4>
+                        <ul id="product-features" class="space-y-3 font-light text-slate-600">
+                            <!-- Injected via JS -->
+                        </ul>
+                    </div>
+
+                    <!-- Variants Selection -->
+                    <div
+                        class="bg-slate-50 p-6 rounded border border-slate-200 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.05)] mb-10">
+                        <h4 class="text-sm font-medium text-brand-dark uppercase tracking-wider mb-4">Select Wholesale
+                            Variant</h4>
+                        <div id="variants-container" class="grid grid-cols-2 lg:grid-cols-3 gap-3 mb-2">
+                            <!-- Injected via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-auto">
+                        <a href="contact.html"
+                            class="bg-brand-dark text-white px-8 py-4 rounded font-medium hover:bg-brand-accent transition-smooth tracking-wide text-sm flex justify-center items-center gap-2 uppercase shadow-sm">
+                            Request Quote <i class="ph ph-envelope-simple text-lg"></i>
+                        </a>
+                        <a href="https://wa.me/919327007690" target="_blank"
+                            class="bg-transparent border border-slate-300 text-brand-dark px-8 py-4 rounded font-medium hover:border-[#25D366] hover:text-[#25D366] hover:bg-white transition-smooth tracking-wide text-sm flex justify-center items-center gap-2 uppercase bg-white">
+                            WhatsApp Us <i class="ph ph-whatsapp-logo text-lg"></i>
+                        </a>
+                    </div>
+
+                    <!-- Custom Callout -->
+                    <div class="mt-10 pt-8 border-t border-slate-200">
+                        <div class="flex gap-4">
+                            <i class="ph ph-ruler text-3xl text-brand-accent shrink-0"></i>
+                            <div>
+                                <h5 class="font-medium text-brand-dark mb-1">Specific dimension required by your
+                                    karigars?</h5>
+                                <p class="text-slate-500 font-light text-sm mb-3">We offer bespoke manufacturing runs
+                                    engineered for unique Indian jewelry designs.</p>
+                                <a href="contact.html"
+                                    class="text-brand-accent hover:text-brand-dark text-sm font-medium transition-smooth inline-flex items-center gap-1 uppercase tracking-wider border-b border-transparent hover:border-brand-dark">Discuss
+                                    Custom Needs <i class="ph ph-caret-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Image Slider Modal -->
+    <div id="image-slider-modal"
+        class="fixed inset-0 z-[100] bg-black/95 hidden flex-col justify-center items-center backdrop-blur-md">
+        <!-- Close Button -->
+        <button id="slider-close"
+            class="absolute top-6 right-6 text-white/50 hover:text-white hover:rotate-90 transition-smooth focus:outline-none p-2 z-10">
+            <i class="ph ph-x text-3xl"></i>
+        </button>
+
+        <!-- Main Slider Content -->
+        <div class="relative w-full max-w-5xl px-4 md:px-12 flex items-center justify-between pointer-events-none">
+            <!-- Prev Button -->
+            <button id="slider-prev"
+                class="text-white/30 hover:text-white transition-smooth focus:outline-none pointer-events-auto p-4 hover:-translate-x-1">
+                <i class="ph ph-caret-left text-4xl md:text-5xl"></i>
+            </button>
+
+            <!-- Image Container -->
+            <div class="flex-grow flex justify-center items-center px-4 w-full h-[75vh] pointer-events-auto">
+                <img loading="lazy" decoding="async" id="slider-image" src="" alt="Gallery Image"
+                    class="max-w-full max-h-full object-contain select-none drop-shadow-2xl transition-smooth duration-500">
+            </div>
+
+            <!-- Next Button -->
+            <button id="slider-next"
+                class="text-white/30 hover:text-white transition-smooth focus:outline-none pointer-events-auto p-4 hover:translate-x-1">
+                <i class="ph ph-caret-right text-4xl md:text-5xl"></i>
+            </button>
+        </div>
+
+        <!-- Counter -->
+        <div
+            class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/50 font-light text-sm tracking-widest uppercase">
+            <span id="slider-current-index" class="text-white font-medium">1</span> / <span
+                id="slider-total-count">1</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-brand-darker text-slate-300 pt-16 pb-8 border-t-[4px] border-brand-accent">
+        <!-- Content matches other footers -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 mb-12">
+                <div class="md:col-span-2">
+                    <div class="flex items-center gap-2 mb-6">
+                        <img loading="lazy" decoding="async" src="./images/logo.png" alt="Ashirwad Orna Logo" class="h-8 md:h-10 w-auto opacity-90"
+                            onerror="this.outerHTML='<span class=\'font-bold text-lg tracking-wider text-white uppercase\'>Ashirwad<span class=\'text-brand-accent\'>Orna</span></span>'">
+                    </div>
+                    <p class="text-slate-400 font-light max-w-sm mb-6 leading-relaxed">
+                        The trusted B2B partner for premium jewelry findings. Engineering excellence for India's finest
+                        retail and wholesale jewelers.
+                    </p>
+                </div>
+                <div>
+                    <h5 class="text-white font-medium mb-4 uppercase text-sm tracking-widest">Quick Links</h5>
+                    <ul class="space-y-3 font-light text-slate-400">
+                        <li><a href="about.html" class="hover:text-brand-accent transition-smooth">About Us</a></li>
+                        <li><a href="products.html" class="hover:text-brand-accent transition-smooth">Our Collection</a>
+                        </li>
+                        <li><a href="contact.html" class="hover:text-brand-accent transition-smooth">Contact Sales</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-white font-medium mb-4 uppercase text-sm tracking-widest">Connect</h5>
+                    <ul class="space-y-3 font-light text-slate-400">
+                        <li class="flex items-center gap-3"><i
+                                class="ph ph-envelope-simple text-xl text-brand-accent"></i> ashirwadorna@gmail.com</li>
+                        <li class="flex items-center gap-3"><i class="ph ph-phone text-xl text-brand-accent"></i> +91
+                            9327007690</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500 font-light gap-4 text-center md:text-left">
+                <p>&copy; 2026 Ashirwad Orna. All rights reserved.</p>
+                <div class="space-x-6 flex items-center justify-center">
+                    <a href="#" class="hover:text-white transition-smooth">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-smooth">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load Global Nav JS, then Data, then Product Logic -->
+    <script src="./assets/js/main.js"></script>
+    <script src="./data/products.js"></script>
+    <script src="./assets/js/product-detail.js"></script>
+</body>
+
+</html>
